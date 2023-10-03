@@ -1,0 +1,29 @@
+.nav-bar {
+  height: 15vh;
+  background-color: #dbeafe;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.nxt-slides-logo {
+  width: 50px;
+  padding: 10px;
+}
+
+.nav-heading {
+  color: #0f172a;
+  font-family: 'Bree Serif';
+  font-size: 20px;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 768px) {
+  .nxt-slides-logo {
+    width: 80px;
+    padding: 150p;
+  }
+  .nav-heading {
+    font-size: 32px;
+  }
+}
